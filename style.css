@@ -1,0 +1,251 @@
+@font-face {
+    font-family: "myFont";
+    src: url('Plutur.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(41, 47, 94);
+}
+
+
+.navbar {
+    position: sticky;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 0px 20px 0px 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(1, 1, 4, 0.679);
+    background-blend-mode: lighten;
+    z-index: 0.2;
+}
+
+.nirdesh {
+    font-family: "myFont";
+    font-size: 3rem;
+    display: flex;
+    float: left;
+    margin: 0px 0px 0px 30px;
+    color: white;
+}
+
+.home {
+    font-size: 2rem;
+    font-family: "myFont";
+    float: right;
+    font-weight: bold;
+    margin: 7px 20px 0px 0px;
+    color: white;
+    text-decoration: none;
+}
+
+.home:hover {
+    font-size: 2rem;
+    font-family: "myFont";
+    float: right;
+    font-weight: bold;
+    margin: 7px 20px 0px 0px;
+    color: white;
+    text-decoration: underline;
+}
+
+.body {
+    margin: 100px 50px 100px 50px;
+    padding: 0px 50px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(38, 117, 244);
+    border-radius: 10px;
+}
+
+.terminal {
+    padding: 20px 0px 20px 0px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.inside_terminal {
+    text-align: center;
+}
+
+.register {
+    font-family: "myFont";
+    font-size: 7rem;
+    color: rgba(34, 228, 34, 0.756);
+}
+
+.below_register {
+    font-size: 1.5rem;
+
+    color: rgb(34, 228, 34, 0.756);
+}
+
+.inside_first_name {
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    color: rgba(255, 187, 0, 0.936);
+    font-size: 1.5rem;
+    border: 3px solid rgba(127, 139, 242, 0.771);
+    border-radius: 15px;
+    padding: 30px;
+    margin: 20px 0px 20px 0px;
+}
+
+.first_name_fillup {
+    padding: 10px 600px 10px 10px;
+    background-color: rgba(69, 75, 123, 0.616);
+    color: white;
+    font-size: large;
+}
+
+.first_name {
+    font-size: 1.5rem;
+    color: rgb(255, 187, 0, 0.936);
+    padding: 0px 30px 0px 30px;
+    margin: 10px;
+}
+
+.choice_selection {
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    color: rgba(255, 187, 0, 0.936);
+    font-size: 1.5rem;
+    border: 3px solid rgba(127, 139, 242, 0.771);
+    border-radius: 15px;
+    padding: 10px 20px 0px 20px;
+    margin: 0px 40px 20px 40px;
+}
+
+.boundary {
+    padding: 50px 0px 50px 0px;
+    margin: 50px 0px 0px 0px;
+}
+
+.selecr_year {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.selection {
+    display: flex;
+    justify-content: space-around;
+}
+
+.year_level {
+    padding: 10px;
+}
+
+#year_selection {
+    padding: 10px 320px 10px 10px;
+    margin: 0px 50px 30px 50px;
+    background-color: rgba(69, 75, 123, 0.616);
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.transaction_id {
+    font-size: 1rem;
+    color: rgba(255, 187, 0, 0.936);
+    font-style: italic;
+    display: flex;
+}
+
+.bijit-fave {
+    font-size: 1rem;
+    font-style: italic;
+    color: rgb(178, 178, 229);
+}
+
+.code_of_conduct {
+    display: flex;
+    border: 3px solid rgba(127, 139, 242, 0.771);
+    border-radius: 15px;
+    color: white;
+    padding: 30px;
+    margin: 20px 0px px 0px;
+}
+
+.Nirdeshians_manual {
+    color: rgba(255, 187, 0, 0.936);
+    text-decoration: none;
+}
+
+.submit {
+    font-family: "myFont";
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    background-color: rgb(245, 156, 48);
+    font-weight: bold;
+    margin: 0px 0px 50px 0px;
+}
+
+.submit:hover {
+    padding: 10px 100px 10px 100px;
+    transition-duration: 0.5s;
+    font-size: 2rem;
+}
+
+.ending {
+    background-color: rgba(31, 47, 80, 0.497);
+    padding: 20px 20px 20px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nirdesh_tech_fest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 0px 50px;
+    float: left;
+    color: rgba(186, 185, 185, 0.822);
+}
+
+.Nirdesh {
+    font-family: "myFont";
+    font-size: 3rem;
+}
+
+.tech_fest {
+    font-size: 1.2rem;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.twt {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+hr.line_break {
+    border: 1px solid black;
+}
+
+.ending_note {
+    background-color: rgba(31, 47, 80, 0.497);
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    color: rgba(198, 195, 195, 0.847);
+}
