@@ -9,9 +9,63 @@
 }
 
 body {
-    background-color: rgb(41, 47, 94);
+    background-color: #0f1a38;
 }
 
+.terminal {
+    padding: 20px 0px 0px 0px;
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside_terminal {
+    text-align: center;
+    padding: 0px 330px 0px 320px;
+}
+
+.circles {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 20px 0px 20px;
+    float: left;
+}
+
+.red {
+    border: 2px solid red;
+    border-radius: 50%;
+    background-color: red;
+    height: 16px;
+    width: 16px;
+    justify-content: space-around;
+    margin: 0px 10px 0px 10px;
+}
+
+.yellow {
+    border: 2px solid yellow;
+    border-radius: 50%;
+    background-color: yellow;
+    height: 16px;
+    width: 16px;
+    justify-content: space-around;
+    margin: 0px 10px 0px 10px;
+}
+
+.green {
+    border: 2px solid green;
+    border-radius: 50%;
+    background-color: green;
+    height: 16px;
+    width: 16px;
+    justify-content: space-around;
+    margin: 0px 10px 0px 10px;
+}
+
+.blank {
+    float: right;
+}
 
 .navbar {
     position: sticky;
@@ -69,15 +123,6 @@ body {
     border-radius: 10px;
 }
 
-.terminal {
-    padding: 20px 0px 20px 0px;
-    font-size: 1.5rem;
-    color: white;
-}
-
-.inside_terminal {
-    text-align: center;
-}
 
 .register {
     font-family: "myFont";
@@ -253,4 +298,13 @@ hr.line_break {
 
 .instagram {
     color: rgba(198, 195, 195, 0.847);
+}
+
+#bg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
 }
