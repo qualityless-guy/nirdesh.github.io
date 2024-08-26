@@ -192,6 +192,7 @@ body {
     background-color: rgb(245, 156, 48);
     font-weight: bold;
     margin: 0px 0px 50px 0px;
+    cursor: pointer;
 }
 
 .submit:hover {
@@ -247,5 +248,9 @@ hr.line_break {
     background-color: rgba(31, 47, 80, 0.497);
     text-align: center;
     padding: 20px 0px 20px 0px;
+    color: rgba(198, 195, 195, 0.847);
+}
+
+.instagram {
     color: rgba(198, 195, 195, 0.847);
 }
